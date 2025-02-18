@@ -1,0 +1,59 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["Ola", "Olá", "Opa", "Oi", "tudo bem", "como vai", "Salve", "Chama", "Coé", "Eae", "Eaí"],
+      "responses": ["Oi", "Olá", "Salve", "Tudo bem?"]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["valeu", "tchau", "Obrigado", "fui", "beleza", "Falou", "Até mais", "Bye"],
+      "responses": ["Até breve", "Falou", "Tchau, boa sorte!", "Até logo"]
+    },
+    {
+      "tag": "informacoes_PIPE",
+      "patterns": ["O que é o PIPE?", "Me explica o que é PIPE", "O que eu preciso para submeter um projeto PIPE?"],
+      "responses": ["O PIPE é um programa de fomento à pesquisa e inovação. Ele apoia projetos que visam desenvolver novos produtos ou processos inovadores.", "PIPE é o Programa de Pesquisa Inovativa em Empresas, oferecido pela FAPESP, que visa apoiar empresas de qualquer porte e setor."]
+    },
+    {
+      "tag": "etapas_submissao",
+      "patterns": ["Como submeter um projeto PIPE?", "Quais as etapas para submeter um projeto?", "Como faço a submissão do meu projeto?"],
+      "responses": ["Primeiro, você precisa acessar o portal da FAPESP, preencher o formulário de submissão e anexar os documentos necessários.", "A submissão do projeto PIPE envolve o preenchimento de um formulário online e o envio de um plano de trabalho detalhado."]
+    },
+    {
+      "tag": "documentos_necessarios",
+      "patterns": ["Quais documentos preciso para submeter o projeto?", "Que documentos devo enviar para o PIPE?", "Preciso de documentos específicos para o PIPE?"],
+      "responses": ["Você precisa anexar documentos como o plano de trabalho do projeto, o formulário de submissão e, caso necessário, o termo de compromisso da empresa.", "Os documentos essenciais incluem o projeto técnico detalhado, comprovantes de vínculos e o plano de utilização dos recursos."]
+    },
+    {
+      "tag": "critérios_avalicao",
+      "patterns": ["Quais são os critérios de avaliação para o PIPE?", "Como o projeto é avaliado?", "O que a FAPESP leva em consideração na avaliação do projeto?"],
+      "responses": ["A FAPESP avalia a relevância do projeto, a viabilidade técnica, o potencial de inovação e o impacto do projeto para o mercado.", "Os critérios principais incluem inovação, impacto social e econômico, e a capacidade técnica da equipe."]
+    },
+    {
+      "tag": "recursos_financeiros",
+      "patterns": ["Quanto de verba posso solicitar?", "Qual o valor máximo do PIPE?", "Quanto a FAPESP financia?"],
+      "responses": ["O valor de financiamento pode variar conforme o tipo de projeto, mas o valor máximo pode chegar a R$ 1,5 milhão dependendo da fase e do tipo de inovação.", "A FAPESP pode financiar até 1,5 milhão de reais, dependendo da fase do projeto e do seu impacto esperado."]
+    },
+    {
+      "tag": "prazo_submissao",
+      "patterns": ["Qual o prazo para submeter um projeto PIPE?", "Até quando posso enviar meu projeto?", "Quando é o último dia para submeter o projeto PIPE?"],
+      "responses": ["Os prazos podem variar conforme os editais. É importante conferir no site da FAPESP para garantir que está dentro do período.", "O prazo para a submissão do projeto depende do edital vigente. Fique atento às datas no portal da FAPESP."]
+    },
+    {
+      "tag": "orientacao_submissao",
+      "patterns": ["Estou com dúvidas sobre a submissão", "Preciso de ajuda para submeter meu projeto", "Não sei como preencher o formulário"],
+      "responses": ["Se tiver dúvidas, consulte a seção de perguntas frequentes no site da FAPESP ou entre em contato com o suporte.", "Você pode pedir ajuda diretamente no portal de submissão ou conversar com o coordenador do programa para orientações adicionais."]
+    },
+    {
+      "tag": "status_projeto",
+      "patterns": ["Como sei se meu projeto foi aceito?", "Qual o status do meu projeto?", "A FAPESP já analisou meu projeto?"],
+      "responses": ["Você pode acompanhar o status diretamente no portal de submissão, onde encontrará informações sobre a análise.", "Após a submissão, você receberá uma notificação sobre o status de aprovação do projeto."]
+    },
+    {
+      "tag": "inovacao_tecnologica",
+      "patterns": ["Como mostrar inovação no meu projeto?", "Meu projeto é inovador, como comprovo isso?", "Qual o diferencial do meu projeto para ser aceito?"],
+      "responses": ["É importante destacar como seu projeto resolve um problema novo ou melhora significativamente uma tecnologia existente.", "A inovação pode ser demonstrada através da novidade da solução proposta, sua aplicabilidade no mercado e o impacto que trará."]
+    }
+  ]
+}
